@@ -10,5 +10,5 @@ public class ApiController {
     public String hello(){return "Hello World";}
 
     @GetMapping
-    public String ingressUser(){return  "ingressed user";}
+    public String ingressUser(){return  "ingress user";}
 }
