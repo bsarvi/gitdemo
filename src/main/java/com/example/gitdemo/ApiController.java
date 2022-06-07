@@ -8,4 +8,7 @@ public class ApiController {
 
     @GetMapping
     public String hello(){return "Hello World";}
+
+    @GetMapping
+    public String ingressUser(){return  "ingressed user";}
 }
